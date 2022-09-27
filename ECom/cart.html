@@ -1,0 +1,483 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce cart</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader-inner">
+            <span class="loader"></span>
+        </div>
+    </div>
+    <div class="as-menu-wrapper">
+        <div class="as-menu-area text-center"><button class="as-menu-toggle"><i class="far fa-times"></i></button>
+            <div class="mobile-logo"><a href="index.html"><img src="assets/img/logo.svg" alt="ac"></a></div>
+            <div class="as-menu-inner">
+                <div class="as-mobile-menu">
+                    <ul>
+                        <li class="menu-item-has-children"><a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home One</a></li>
+                                <li><a href="index-2.html">Home Two</a></li>
+                                <li><a href="index-3.html">Home Three</a></li>
+                                <li><a href="index-4.html">Home Four</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="menu-item-has-children mega-menu-wrap"><a href="#">Pages</a>
+                            <ul class="mega-menu">
+                                <li><a href="shop.html">Pagelist 1</a>
+                                    <ul>
+                                        <li><a href="index.html">Home One</a></li>
+                                        <li><a href="index-2.html">Home Two</a></li>
+                                        <li><a href="index-3.html">Home Three</a></li>
+                                        <li><a href="index-4.html">Home Four</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pagelist 2</a>
+                                    <ul>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-2.html">Blog Two</a></li>
+                                        <li><a href="blog-3.html">Blog Three</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pagelist 3</a>
+                                    <ul>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="shop-details.html">Shop Details</a></li>
+                                        <li><a href="cart.html">Cart Page</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pagelist 4</a>
+                                    <ul>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="error.html">Error Page</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="shop.html">Shop</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop-details.html">Shop Details</a></li>
+                                <li><a href="cart.html">Cart Page</a></li>
+                                <li><a href="compare.html">Compare</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="blog.html">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-2.html">Blog Two</a></li>
+                                <li><a href="blog-3.html">Blog Three</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="as-woocommerce-menu"><a href="shop.html"><i class="fal fa-user"></i>Login / Register</a> <a
+                        href="wishlist.html"><i class="fal fa-heart"></i>Wishlist <span class="badge">5</span></a> <a
+                        href="cart.html"><i class="fal fa-shopping-bag"></i>Basket: <span
+                            class="text-theme">$318.00</span> <span class="badge">4</span></a></div>
+                <div class="as-dropdown-menu">
+                    <ul>
+                        <li><a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink5"
+                                data-bs-toggle="dropdown" aria-expanded="false">Currency</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink5">
+                                <li><a href="#">AED</a></li>
+                                <li><a href="#">BDT</a></li>
+                                <li><a href="#">ERN</a></li>
+                                <li><a href="#">EGP</a></li>
+                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">GBP</a></li>
+                                <li><a href="#">USD</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink6"
+                                data-bs-toggle="dropdown" aria-expanded="false">Language</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink6">
+                                <li><a href="#">German</a> <a href="#">French</a> <a href="#">Italian</a> <a
+                                        href="#">Latvian</a> <a href="#">Spanish</a> <a href="#">Greek</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidemenu-wrapper d-none d-lg-block">
+        <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+            <div class="widget widget_shopping_cart">
+                <h3 class="widget_title">Shopping cart</h3>
+                <div class="widget_shopping_cart_content">
+                    <ul class="cart_list">
+                        <li class="mini_cart_item"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a> <a
+                                href="#"><img src="assets/img/cart/cart-img-1-2.jpg" alt="Cart Image">Adidas Shoes</a>
+                            <span class="quantity">1 × <span class="amount"><span>$</span>40.00</span></span>
+                        </li>
+                        <li class="mini_cart_item"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a> <a
+                                href="#"><img src="assets/img/cart/cart-img-1-2.jpg" alt="Cart Image">Sports Shoes</a>
+                            <span class="quantity">1 × <span class="amount"><span>$</span>99.00</span></span>
+                        </li>
+                        <li class="mini_cart_item"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a> <a
+                                href="#"><img src="assets/img/cart/cart-img-1-2.jpg" alt="Cart Image">Smart Watch</a>
+                            <span class="quantity">1 × <span class="amount"><span>$</span>56.00</span></span>
+                        </li>
+                        <li class="mini_cart_item"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a> <a
+                                href="#"><img src="assets/img/cart/cart-img-1-2.jpg" alt="Cart Image">Bluetooth</a>
+                            <span class="quantity">1 × <span class="amount"><span>$</span>23.00</span></span>
+                        </li>
+                    </ul>
+                    <p class="total"><strong>Subtotal:</strong> <span class="amount"><span>$</span>318.00</span></p>
+                    <p class="buttons"><a href="cart.html" class="as-btn">View cart</a> <a href="checkout.html"
+                            class="as-btn">Checkout</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="as-header header-layout2">
+        <div class="sticky-wrapper">
+            <div class="sticky-active">
+                <div class="menu-area">
+                    <div class="container">
+                        <div class="row gx-20 align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <div class="header-logo logos py-3 py-lg-0"><a href="index.html"><span>
+                                            <div>ac</div>Shop
+                                        </span></a></div>
+                            </div>
+                            <div class="col-auto">
+                                <nav class="main-menu d-none d-lg-inline-block">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="menu-item-has-children"><a href="#">Page</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="shop-details.html">Shop Details</a></li>
+                                                <li><a href="cart.html">Cart Page</a></li>
+                                                <li><a href="compare.html">Compare</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="blog-3.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav><button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i
+                                        class="far fa-bars"></i></button>
+                            </div>
+                            <div class="col-auto d-none d-xl-block">
+                                <div class="header-button"><button type="button" class="searchBoxToggler"><i
+                                            class="fal fa-search"></i></button> <a href="shop.html"><i
+                                            class="fal fa-user"></i></a> <a href="wishlist.html"><i
+                                            class="fal fa-heart"></i></a> <a href="cart.html"
+                                        class="sideMenuToggler has-badge"><i class="fal fa-shopping-bag"></i><span
+                                            class="badge">4</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb_bg_cart.jpg" data-overlay="title"
+        data-opacity="7">
+        <div class="container">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">Cart</h1>
+                <ul class="breadcumb-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Cart</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="space-top space-extra-bottom">
+        <div class="container">
+            <div class="woocommerce-notices-wrapper">
+                <div class="woocommerce-message">Shipping costs updated.</div>
+            </div>
+            <form action="#" class="woocommerce-cart-form">
+                <table class="cart_table">
+                    <thead>
+                        <tr>
+                            <th class="cart-col-image">Image</th>
+                            <th class="cart-col-productname">Product Name</th>
+                            <th class="cart-col-price">Price/Unit</th>
+                            <th class="cart-col-quantity">Quantity</th>
+                            <th class="cart-col-total">Total</th>
+                            <th class="cart-col-remove">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="cart_item">
+                            <td data-title="Product"><a class="cart-productimage" href="shop.html"><img width="140"
+                                        height="140" src="assets/img/cart/cart-img-1-2.jpg" alt="Image"></a></td>
+                            <td data-title="Name"><a class="cart-productname" href="shop.html">Jacket Hoodie</a></td>
+                            <td data-title="Price"><span class="amount"><bdi><span>$</span>18</bdi></span></td>
+                            <td data-title="Quantity">
+                                <div class="quantity"><button class="quantity-minus qut-btn"><i
+                                            class="far fa-minus"></i></button> <input type="number" class="qty-input"
+                                        value="1" min="1" max="99"> <button class="quantity-plus qut-btn"><i
+                                            class="far fa-plus"></i></button></div>
+                            </td>
+                            <td data-title="Total"><span class="amount"><bdi><span>$</span>18</bdi></span></td>
+                            <td data-title="Remove"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a></td>
+                        </tr>
+                        <tr class="cart_item">
+                            <td data-title="Product"><a class="cart-productimage" href="shop.html"><img width="140"
+                                        height="140" src="assets/img/cart/cart-img-1-2.jpg" alt="Image"></a></td>
+                            <td data-title="Name"><a class="cart-productname" href="shop.html">Sports Shoes</a></td>
+                            <td data-title="Price"><span class="amount"><bdi><span>$</span>23</bdi></span></td>
+                            <td data-title="Quantity">
+                                <div class="quantity"><button class="quantity-minus qut-btn"><i
+                                            class="far fa-minus"></i></button> <input type="number" class="qty-input"
+                                        value="1" min="1" max="99"> <button class="quantity-plus qut-btn"><i
+                                            class="far fa-plus"></i></button></div>
+                            </td>
+                            <td data-title="Total"><span class="amount"><bdi><span>$</span>52</bdi></span></td>
+                            <td data-title="Remove"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a></td>
+                        </tr>
+                        <tr class="cart_item">
+                            <td data-title="Product"><a class="cart-productimage" href="shop.html"><img width="140"
+                                        height="140" src="assets/img/cart/cart-img-1-2.jpg" alt="Image"></a></td>
+                            <td data-title="Name"><a class="cart-productname" href="shop.html">Smart Watch</a></td>
+                            <td data-title="Price"><span class="amount"><bdi><span>$</span>25</bdi></span></td>
+                            <td data-title="Quantity">
+                                <div class="quantity"><button class="quantity-minus qut-btn"><i
+                                            class="far fa-minus"></i></button> <input type="number" class="qty-input"
+                                        value="1" min="1" max="99"> <button class="quantity-plus qut-btn"><i
+                                            class="far fa-plus"></i></button></div>
+                            </td>
+                            <td data-title="Total"><span class="amount"><bdi><span>$</span>18</bdi></span></td>
+                            <td data-title="Remove"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a></td>
+                        </tr>
+                        <tr class="cart_item">
+                            <td data-title="Product"><a class="cart-productimage" href="shop.html"><img width="140"
+                                        height="140" src="assets/img/cart/cart-img-1-2.jpg" alt="Image"></a></td>
+                            <td data-title="Name"><a class="cart-productname" href="shop.html">Bluetooth Speaker</a>
+                            </td>
+                            <td data-title="Price"><span class="amount"><bdi><span>$</span>25</bdi></span></td>
+                            <td data-title="Quantity">
+                                <div class="quantity"><button class="quantity-minus qut-btn"><i
+                                            class="far fa-minus"></i></button> <input type="number" class="qty-input"
+                                        value="1" min="1" max="99"> <button class="quantity-plus qut-btn"><i
+                                            class="far fa-plus"></i></button></div>
+                            </td>
+                            <td data-title="Total"><span class="amount"><bdi><span>$</span>18</bdi></span></td>
+                            <td data-title="Remove"><a href="#" class="remove"><i class="fal fa-trash-alt"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="actions">
+                                <div class="as-cart-coupon"><input type="text" class="form-control"
+                                        placeholder="Coupon Code..."> <button type="submit"
+                                        class="as-btn mask-btn">Apply Coupon</button></div><button type="submit"
+                                    class="as-btn mask-btn">Update cart</button> <a href="shop.html"
+                                    class="as-btn mask-btn">Continue Shopping</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <div class="row justify-content-end">
+                <div class="col-md-8 col-lg-7 col-xl-6">
+                    <h2 class="h4 summary-title">Cart Totals</h2>
+                    <table class="cart_totals">
+                        <tbody>
+                            <tr>
+                                <td>Cart Subtotal</td>
+                                <td data-title="Cart Subtotal"><span class="amount"><bdi><span>$</span>47</bdi></span>
+                                </td>
+                            </tr>
+                            <tr class="shipping">
+                                <th>Shipping and Handling</th>
+                                <td data-title="Shipping and Handling">
+                                    <ul class="woocommerce-shipping-methods list-unstyled">
+                                        <li><input type="radio" id="free_shipping" name="shipping_method"
+                                                class="shipping_method"> <label for="free_shipping">Free
+                                                shipping</label></li>
+                                        <li><input type="radio" id="flat_rate" name="shipping_method"
+                                                class="shipping_method" checked="checked"> <label for="flat_rate">Flat
+                                                rate</label></li>
+                                    </ul>
+                                    <p class="woocommerce-shipping-destination">Shipping options will be updated during
+                                        checkout.</p>
+                                    <form action="#" method="post"><a href="#" class="shipping-calculator-button">Change
+                                            address</a>
+                                        <div class="shipping-calculator-form">
+                                            <p class="form-row"><select class="form-select">
+                                                    <option value="AR">Argentina</option>
+                                                    <option value="AM">Armenia</option>
+                                                    <option value="BD" selected="selected">Bangladesh</option>
+                                                </select></p>
+                                            <p><select class="form-select">
+                                                    <option value="">Select an option…</option>
+                                                    <option value="BD-05">Bagerhat</option>
+                                                    <option value="BD-01">Bandarban</option>
+                                                    <option value="BD-02">Barguna</option>
+                                                    <option value="BD-06">Barishal</option>
+                                                </select></p>
+                                            <p class="form-row"><input type="text" class="form-control"
+                                                    placeholder="Town / City"></p>
+                                            <p class="form-row"><input type="text" class="form-control"
+                                                    placeholder="Postcode / ZIP"></p>
+                                            <p><button class="as-btn mask-btn">Update</button></p>
+                                        </div>
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="order-total">
+                                <td>Order Total</td>
+                                <td data-title="Total"><strong><span
+                                            class="amount"><bdi><span>$</span>47</bdi></span></strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="wc-proceed-to-checkout mb-30"><a href="checkout.html" class="as-btn mask-btn">Proceed to
+                            checkout</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-wrapper footer-layout2">
+        <div class="footer-inner">
+
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-auto logos">
+                            <a> <span>
+                                    <div>ac</div>Shop
+                                </span></a>
+                        </div>
+                        <div class="col-auto">
+                            <div class="as-social"><a target="_blank" href="https://facebook.com/"><i
+                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
+                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank"
+                                    href="https://pinterest.com/"><i class="fab fa-pinterest-p"></i></a> <a
+                                    target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-area">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-auto col-sm-6">
+                            <div class="widget footer-widget">
+                                <h4 class="widget_title">Contact Us</h4>
+                                <div class="as-widget-contact">
+                                    <p class="footer-info"><i class="fas fa-map-marker-alt"></i>2751 S Parker Rd,
+                                        Aurora, CO 80014, United States</p>
+                                    <p class="footer-info"><i class="fas fa-phone-alt"></i> <a class="text-inherit"
+                                            href="tel:+18008660286">+18008660286</a></p>
+                                    <p class="footer-info"><i class="fas fa-envelope"></i> <a class="text-inherit"
+                                            href="mailto:ac.info@gmail.com">ac.info@gmail.com</a> <a
+                                            class="text-inherit" href="mailto:info@ac.com">info@ac.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-auto col-sm-6">
+                            <div class="widget footer-widget widget_nav_menu">
+                                <h4 class="widget_title">My Account</h4>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="shop.html">My Account</a></li>
+                                        <li><a href="cart.html">View Cart</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="compare.html">Compare</a></li>
+                                        <li><a href="shop.html">New Products</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-auto col-sm-6">
+                            <div class="widget footer-widget">
+                                <h4 class="widget_title">Opening Time</h4>
+                                <div class="as-widget-schedule">
+                                    <table class="footer-table">
+                                        <tr>
+                                            <th>Mon - Tue:</th>
+                                            <td>8AM - 10PM</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Wed:</th>
+                                            <td>8AM - 7PM</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Fri:</th>
+                                            <td>7AM - 12PM</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sat:</th>
+                                            <td>9AM - 8PM</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sun:</th>
+                                            <td>Closed</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-auto col-sm-6">
+                            <div class="widget footer-widget">
+                                <h4 class="widget_title">News Letter</h4>
+                                <div class="as-widget-newsletter">
+                                    <p class="newsletter-text">Authoritatively morph 24/7 potentialities with error-free
+                                        partnerships.</p>
+                                    <form class="newsletter-form"><input class="form-control" type="email"
+                                            placeholder="Email Address" required=""> <button type="submit"
+                                            class="as-btn mask-btn">Subscribe</button></form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-auto text-center text-md-start">
+                        <p class="copyright">© 2022 All Rights Reserved By <a href="#">ac</a></p>
+                    </div>
+                    <div class="col-md-auto d-none d-md-block"><img src="assets/img/cart/all.png" alt="carts"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/ascustom-carousel.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
